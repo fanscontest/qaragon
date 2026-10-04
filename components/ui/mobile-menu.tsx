@@ -75,7 +75,7 @@ export default function MobileMenu() {
       >
         <ul className="border border-transparent [background:linear-gradient(var(--color-slate-900),var(--color-slate-900))_padding-box,conic-gradient(var(--color-slate-400),var(--color-slate-700)_25%,var(--color-slate-700)_75%,var(--color-slate-400)_100%)_border-box] rounded-lg px-4 py-1.5">
           <li>
-            <Link className="flex font-medium text-sm text-slate-300 hover:text-white py-1.5" href="#">Docs</Link>
+            <a className="flex font-medium text-sm text-slate-300 hover:text-white py-1.5" href="https://api.qaragon.com/openapi.json" target="_blank" rel="noopener noreferrer" onClick={() => setMobileNavOpen(false)}>Docs</a>
           </li>
           <li>
             <Link className="flex font-medium text-sm text-slate-300 hover:text-white py-1.5" href="#">Pricing</Link>
