@@ -26,10 +26,10 @@ export default function Home() {
       <Stats />
       {/* <Clients /> */}
       <Features />
+      <DeveloperTools />
       <TestimonialsCarousel />
       <Showcase />
       <Features02 />
-      <DeveloperTools />
       {/* <Features03 /> */}
       <Features04 />
       <Pricing />

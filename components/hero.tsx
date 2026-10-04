@@ -40,7 +40,7 @@ export default function Hero() {
             </h1>
             <p className="text-lg text-slate-300 mb-3" data-aos="fade-down" data-aos-delay="200">We provide the infrastructure for brands to host contests directly inside their apps.</p>
             <p className="text-lg text-slate-300 mb-8" data-aos="fade-down" data-aos-delay="300">We handle contests, channels, scoring, leaderboards, and real-time participation while you keep your users, authentication and data.</p>
-            <div className="max-w-xs mx-auto sm:max-w-none sm:inline-flex sm:justify-center space-y-4 sm:space-y-0 sm:space-x-4" data-aos="fade-down" data-aos-delay="400">
+            <div className="max-w-xs mx-auto sm:max-w-none sm:inline-flex sm:items-center sm:justify-center gap-3 space-y-4 sm:space-y-0" data-aos="fade-down" data-aos-delay="400">
               <div>
                 <a className="btn text-slate-900 bg-linear-to-r from-white/80 via-white to-white/80 hover:bg-white w-full transition duration-150 ease-in-out group" href="#contact">
                   Apply for keys <span className="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
@@ -48,10 +48,22 @@ export default function Hero() {
               </div>
               <div>
                 <a className="btn text-slate-200 hover:text-white bg-slate-900/25 hover:bg-slate-900/30 w-full transition duration-150 ease-in-out" href="https://api.qaragon.com/openapi.json" target="_blank" rel="noopener noreferrer">
-                  <svg className="shrink-0 fill-slate-300 mr-3" xmlns="http://www.w3.org/2000/svg" width="16" height="16">
-                    <path d="m1.999 0 1 2-1 2 2-1 2 1-1-2 1-2-2 1zM11.999 0l1 2-1 2 2-1 2 1-1-2 1-2-2 1zM11.999 10l1 2-1 2 2-1 2 1-1-2 1-2-2 1zM6.292 7.586l2.646-2.647L11.06 7.06 8.413 9.707zM0 13.878l5.586-5.586 2.122 2.121L2.12 16z" />
+                  <svg className="shrink-0 mr-2 text-slate-300" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                    <path d="M9 2H4a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V7z" />
+                    <path d="M9 2v5h5M6 9.5 4.5 11 6 12.5M10 9.5l1.5 1.5-1.5 1.5" />
                   </svg>
                   <span>Read the docs</span>
+                </a>
+              </div>
+              <div>
+                <a className="btn text-slate-200 hover:text-white bg-slate-900/25 hover:bg-slate-900/30 w-full transition duration-150 ease-in-out" href="#developers">
+                  <svg className="shrink-0 mr-2 text-purple-300" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                    <circle cx="8" cy="3" r="2" />
+                    <circle cx="3" cy="12" r="2" />
+                    <circle cx="13" cy="12" r="2" />
+                    <path d="m7 4.8-3 5.4m5-5.4 3 5.4M5 12h6" />
+                  </svg>
+                  <span>Build with MCP</span>
                 </a>
               </div>
             </div>
