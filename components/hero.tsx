@@ -47,7 +47,7 @@ export default function Hero() {
                 </a>
               </div>
               <div>
-                <a className="btn text-slate-200 hover:text-white bg-slate-900/25 hover:bg-slate-900/30 w-full transition duration-150 ease-in-out" href="https://api.qaragon.com/openapi.json" target="_blank" rel="noopener noreferrer">
+                <a className="btn text-slate-200 hover:text-white bg-slate-900/25 hover:bg-slate-900/30 w-full transition duration-150 ease-in-out" href="https://api.qaragon.com/" target="_blank" rel="noopener noreferrer">
                   <svg className="shrink-0 mr-2 text-slate-300" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
                     <path d="M9 2H4a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V7z" />
                     <path d="M9 2v5h5M6 9.5 4.5 11 6 12.5M10 9.5l1.5 1.5-1.5 1.5" />

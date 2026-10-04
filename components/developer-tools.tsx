@@ -1,4 +1,5 @@
-const apiReference = 'https://api.qaragon.com/openapi.json'
+const apiReference = 'https://api.qaragon.com/'
+const apiContract = 'https://api.qaragon.com/openapi.json'
 const mcpEndpoint = 'https://mcp.qaragon.com/mcp'
 
 export default function DeveloperTools() {
@@ -21,7 +22,7 @@ export default function DeveloperTools() {
               <div className="absolute -right-16 -top-20 h-48 w-48 rounded-full bg-purple-500/15 blur-3xl" aria-hidden="true" />
               <div className="relative">
                 <p className="text-xs font-semibold uppercase tracking-[0.18em] text-purple-300 pb-4">OpenAPI 3.0</p>
-                <h3 className="text-xl font-bold text-slate-100 pb-3">The public API reference</h3>
+                <h3 className="text-xl font-bold text-slate-100 pb-3">Interactive API reference</h3>
                 <p className="text-sm leading-6 text-slate-400 pb-6">
                   Browse the tenant-facing contract, including operations, authentication, parameters, and request and response schemas.
                 </p>
@@ -31,7 +32,15 @@ export default function DeveloperTools() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Open the API contract <span aria-hidden="true">↗</span>
+                  Browse the API reference <span aria-hidden="true">↗</span>
+                </a>
+                <a
+                  className="ml-5 inline-flex items-center gap-1 text-sm font-medium text-slate-400 hover:text-slate-200 transition"
+                  href={apiContract}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  OpenAPI JSON <span aria-hidden="true">↗</span>
                 </a>
               </div>
             </article>
