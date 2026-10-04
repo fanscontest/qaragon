@@ -9,6 +9,7 @@ import Stats from '@/components/stats'
 import Features from '@/components/features'
 import Showcase from '@/components/showcase'
 import Features02 from '@/components/features-02'
+import DeveloperTools from '@/components/developer-tools'
 // Dropped for v1 — single-image section with no real product screenshot.
 // import Features03 from '@/components/features-03'
 import TestimonialsCarousel from '@/components/testimonials-carousel'
@@ -28,6 +29,7 @@ export default function Home() {
       <TestimonialsCarousel />
       <Showcase />
       <Features02 />
+      <DeveloperTools />
       {/* <Features03 /> */}
       <Features04 />
       <Pricing />
