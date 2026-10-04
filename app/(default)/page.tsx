@@ -6,7 +6,6 @@ import Hero from '@/components/hero'
 import Stats from '@/components/stats'
 // Re-enable when we have real customer logos.
 // import Clients from '@/components/clients'
-import Features from '@/components/features'
 import Showcase from '@/components/showcase'
 import Features02 from '@/components/features-02'
 import DeveloperTools from '@/components/developer-tools'
@@ -25,7 +24,6 @@ export default function Home() {
       <Hero />
       <Stats />
       {/* <Clients /> */}
-      <Features />
       <DeveloperTools />
       <TestimonialsCarousel />
       <Showcase />
